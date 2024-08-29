@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('fetch'){
             steps{
-                git branch: 'main', url: 'https://github.com/Tushar8117/testphp.git'
+                git branch: 'main', url: 'https://github.com/Chetan12-rgb/PHPtestTushar.git'
             }
         }
         stage('check'){
